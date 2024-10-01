@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Get Started</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Montserrat:wght@400;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./output.css">
+  </head>
+  <body class="min-h-screen flex flex-col lg:flex-row justify-center bg-white overflow-hidden">
+      <!-- Left Side (Form Section) -->
+      <div class="flex-grow flex flex-col justify-center w-full lg:w-1/2 px-8 lg:px-40 py-1">
+        <div class="flex justify-between items-center mb-6">
+          <!-- Logo -->
+          <a href="index.html" class="block">
+            <img src="images/logo.svg" alt="Investing Logo" class="w-32">
+          </a>
+          <!-- Login link -->
+          <div class="text-right">
+            <p class="text-sm text-gray-600">Already have an account?</p>
+            <a href="./login.html" class="text-blue-500 font-semibold hover:underline">Log In</a>
+          </div>
+        </div>
+        <!-- Form Introduction -->
+        <div class="mt-8">
+          <h1 class="text-2xl lg:text-3xl font-semibold text-gray-800 font-serif">Get started today</h1>
+          <p class="mt-4 text-gray-600">Join us today and unlock exclusive investment opportunities.</p>
+        </div>
+        <!-- Form -->
+        <form id="email-form" class="mt-8">
+          <div class="space-y-4">
+            <input type="text" class="w-full border border-gray-300 bg-gray-50 px-4 py-2 focus:outline-none focus:border-blue-500 rounded-lg" placeholder="Enter your name" id="Name">
+            <input type="email" class="w-full border border-gray-300 bg-gray-50 px-4 py-2 focus:outline-none focus:border-blue-500 rounded-lg" placeholder="Enter your email" id="Email" required>
+          </div>
+          <button type="submit" class="mt-6 w-full bg-blue-600 text-white font-semibold py-2 rounded-lg hover:bg-blue-700 transition duration-200">Sign Up</button>
+        </form>
+        <!-- Terms and Conditions -->
+        <p class="mt-4 text-sm text-gray-600">By clicking the button above, you agree to our 
+          <a href="terms-conditions.html" target="_blank" class="text-blue-500 hover:underline">Terms & Conditions</a> and 
+          <a href="privacy-policy.html" target="_blank" class="text-blue-500 hover:underline">Privacy Policy</a>.
+        </p>
+      </div>
+
+      <!-- Right Side (Illustration Section) -->
+      <div class="hidden lg:flex flex-grow w-1/2 bg-[#00394d] items-center justify-center p-8">
+        <img src="https://ik.imagekit.io/mshcgnjju/Kemsan/Saving%20money-amico%20(2).png" alt="Money Jar Illustration" class="w-3/4">
+      </div>
+  </body>
+</html>
