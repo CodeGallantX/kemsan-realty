@@ -1,5 +1,5 @@
 const accordionImages = {
-  1: 'https://ik.imagekit.io/mshcgnjju/Kemsan/Secure%20Server-amico.png',
+  1: 'https://ik.imagekit.io/mshcgnjju/Kemsan/undraw_investing.svg',
   2: 'https://ik.imagekit.io/mshcgnjju/Kemsan/Privacy%20policy-bro.png',
   3: 'https://ik.imagekit.io/mshcgnjju/Kemsan/Mobile%20user-rafiki.png',
   4: 'https://ik.imagekit.io/mshcgnjju/Kemsan/Product%20quality-pana.png',
